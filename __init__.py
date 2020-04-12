@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from weatherby import weather_printer as wp
 import send_mail as sm
 import itertools
