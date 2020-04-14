@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-from weatherby import weather_printer as wp
-import send_mail as sm
+from modules.weatherby import weather_printer as wp
+import modules.send_mail as sm
 import itertools
 import os
 import argparse
+
 
 args = argparse.ArgumentParser(description="Use the following", usage="""
 -c      --citiesfile         Use the path to a cities file, containing city codes from openweathermap api
